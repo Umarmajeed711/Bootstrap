@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #f9f9f9;
+  }
+  </style>
+</head>
+<body style="background-color: rgb(182, 235, 235);">
+
+   
+
+
+<div class="container mt-3">
+
+    <h1>Utilities / Helper Classes</h1> 
+
+<p>Bootstrap 5 has a lot of utility/helper classes to quickly style elements without using any CSS code.</p>
+  <h2>Borders</h2>
+  <p>Use the border classes to add or remove borders from an element:</p> 
+
+  <span class="border border-3"></span>
+  <span class="border border-0 border-3"></span>
+  <span class="border border-top-0 border-3"></span>
+  <span class="border border-end-0 border-3"></span>
+  <span class="border border-bottom-0 border-3"></span>
+  <span class="border border-start-0 border-3"></span>
+  <br>
+  
+  <span class="border-top border-3"></span>
+  <span class="border-end border-3"></span>
+  <span class="border-bottom border-3"></span>
+  <span class="border-start border-3"></span>
+</div>
+
+
+
+<div class="container mt-3">
+    <h2>Border Width</h2>
+    <p>Use .border-1 to .border-5 to change the width of the border:</p> 
+  
+    <span class="border border-1"></span>
+    <span class="border border-2"></span>
+    <span class="border border-3"></span>
+    <span class="border border-4"></span>
+    <span class="border border-5"></span>
+  </div>
+  
+
+
+
+
+  <div class="container mt-3">
+    <h2>Borders</h2>
+    <p>Use a contextual border color to add a color to the border:</p> 
+    <span class="border border-primary"></span>
+    <span class="border border-secondary"></span>
+    <span class="border border-success"></span>
+    <span class="border border-danger"></span>
+    <span class="border border-warning"></span>
+    <span class="border border-info"></span>
+    <span class="border border-light bg-success border-3"></span>
+    <span class="border border-dark"></span>
+    <span class="border border-white bg-success border-3"></span>
+  </div>
+
+
+
+
+  <div class="container mt-3">
+    <h2>Borders</h2>
+    <p>Round the corner of an element with the rounded classes:</p> 
+    <span class="rounded ">round</span>
+    <span class="rounded-top border-dark"> rounded-top</span>
+    <span class="rounded-end border-dark"> rounded-end</span>
+    <span class="rounded-bottom border-dark">rounded-bottom</span>
+    <span class="rounded-start border-dark">rounded-start</span>
+    <span class="rounded-circle border-dark"> rounded-circle</span>
+    <span class="rounded-pill border-dark" style="width:130px">rounded pill</span>
+    <br>
+    <span class="rounded-0 border-dark"> rounded-0</span>
+    <span class="rounded-1 border-dark">rounded-1</span>
+    <span class="rounded-2 border-dark">rounded-2</span>
+    <span class="rounded-3 border-dark">rounded-3</span>
+    <span class="rounded-4 border-dark">rounded-4</span>
+    <span class="rounded-5 border-dark">rounded-5</span>
+  </div>
+  
+
+
+  <div class="container mt-3">
+    <h2>Float</h2>
+    <p>Float an element to the right with the .float-end class or to the left with .float-start, and clear floats with the .clearfix class.</p> 
+    <div class="clearfix">
+      <span class="float-start">Float left</span>
+      <span class="float-end">Float right</span>
+    </div>
+  </div>
+  
+
+
+  <div class="container mt-3">
+    <h2>Responsive Floats</h2>
+    <p>Float an element to the left or to the right depending on screen width, with the responsive float classes .float-*-left|right (where * is sm, md, lg, xl or xxl).</p>
+    <p>Resize the browser window to see the effect.</p> 
+    <div class="clearfix">
+      <div class="float-sm-end">Float right on small screens or wider</div><br>
+      <div class="float-md-end">Float right on medium screens or wider</div><br>
+      <div class="float-lg-end">Float right on large screens or wider</div><br>
+      <div class="float-xl-end">Float right on extra large screens or wider</div><br>
+      <div class="float-xxl-end">Float right on XXL screens or wider</div><br>
+      <div class="float-none">Float none</div>
+    </div>
+  </div>
+  
+
+
+
+  <div class="container mt-3">
+    <h1>Horizontal Centering</h1>
+    <p>Center an element with the .mx-auto class:</p>
+    <div class="mx-auto bg-warning" style="width:150px">Centered</div>
+  </div>
+  
+
+
+
+  <div class="container mt-3">
+    <h1>Width Utilities</h1>
+    <p>Set the width of an element with the w-* classes:</p>
+    <div class="w-25 bg-warning">Width 25%</div>
+    <div class="w-50 bg-success">Width 50%</div>
+    <div class="w-75 bg-secondary">Width 75%</div>
+    <div class="w-100 bg-info">Width 100%</div>
+    <div class="w-auto bg-danger">Auto Width</div>
+    <div class="mw-100 bg-primary">Max Width 100%</div>
+  </div>
+  
+
+
+
+  <div class="container mt-3">
+    <h1>Height Utilities</h1>
+    <p>Set the height of an element with the h-* classes:</p>
+    <div style="height:200px;background-color:#ddd">
+      <div class="h-25 d-inline-block p-2 bg-warning">Height 25%</div>
+      <div class="h-50 d-inline-block p-2 bg-warning">Height 50%</div>
+      <div class="h-75 d-inline-block p-2 bg-warning">Height 75%</div>
+      <div class="h-100 d-inline-block p-2 bg-warning">Height 100%</div>
+      <div class="h-auto d-inline-block p-2 bg-warning">Auto Height</div>
+      <div class="mh-100 d-inline-block p-2 bg-warning" style="height:500px">Max Height 100%</div>
+    </div>
+  </div>
+
+
+
+  <div class="container mt-3 border border-dark border-3">
+    <h1>Spacing Utilities</h1>
+    <p>Set the spacing of an element with the {property}{sides}-{breakpoint}-{size} classes. Omit breakpoint if you want the padding or margin to work on all screen sizes.</p>
+    <div class="pt-4 bg-warning">I only have a top padding (1.5rem)</div>
+    <div class="p-5 bg-success">I have a padding on all sides (3rem)</div>
+    <div class="m-5 pb-5 bg-info">I have a margin on all sides (3rem) and a bottom padding (3rem)</div>
+  </div>
+
+
+
+
+  <div class="container mt-3 bg-light my-5 py-5">
+    <h1>Shadows</h1>
+    <p>Use the shadow- classes to to add shadows to an element:</p>
+    <div class="shadow-none p-4 mb-4 bg-info">No shadow</div>
+    <div class="shadow-sm p-4 mb-4 bg-success">Small shadow</div>
+    <div class="shadow p-4 mb-4 bg-primary">Default shadow</div>
+    <div class="shadow-lg p-4 mb-4 bg-secondary">Large shadow</div>
+  </div>
+  
+
+
+
+
+  <div class="container mt-3" data-bs-theme="dark">
+    <h1>Vertical Align</h1>
+    <p>Change the alignment of elements with the align classes (only works on inline, inline-block, inline-table and table cell elements):</p>
+    <span class="align-baseline">baseline</span>
+    <span class="align-top">top</span>
+    <span class="align-middle">middle</span>
+    <span class="align-bottom">bottom</span>
+    <span class="align-text-top">text-top</span>
+    <span class="align-text-bottom">text-bottom</span>
+  </div>
+  
+  
+
+
+  <div class="container mt-3">
+    <h1>Visibility</h1>
+    <p>Use the .visible or .invisible classes to control the visibility of elements. Note: These classes do not change the CSS display value. They only add visibility:visible or visibility:hidden to an element:</p>
+    <div class="visible bg-success">I am visible</div>
+    <div class="invisible bg-warning">I am invisible</div>
+  </div>
+  
+
+
+
+
+
+
+  <div class="container mt-3">
+    <h1>Close Icon</h1>
+    <p>Use the .close class to style a close icon. This is often used for alerts and modals. Note that we use the times; symbol to create the actual icon (a better looking "x"). Also note that it is right-aligned by default:</p>
+    <div class="clearfix">
+      <button type="button" class="close">&times;</button>
+    </div>
+  </div>
+
+  
+
+
+  <div class="container mt-3">
+    <h2>Screen readers</h2>
+    <p>Use the .sr-only class to hide an element on all devices, except screen readers:</p>
+    <span class="visually-hidden">I will be hidden on all screens except for screen readers.</span>
+  </div>
+
+  
+
+
+  <div class="container mt-3">
+    <h2>Contextual Colors</h2>
+    <p>Use the contextual classes to provide "meaning through colors":</p>
+    <p class="text-muted">This text is muted.</p>
+    <p class="text-primary">This text is important.</p>
+    <p class="text-success">This text indicates success.</p>
+    <p class="text-info">This text represents some information.</p>
+    <p class="text-warning">This text represents a warning.</p>
+    <p class="text-danger">This text represents danger.</p>
+    <p class="text-secondary">Secondary text.</p>
+    <p class="text-dark">This text is dark grey.</p>
+    <p class="text-body">Default body color (often black).</p>
+    <p class="text-light">This text is light grey (on white background).</p>
+    <p class="text-white">This text is white (on white background).</p>
+  </div>
+  
+
+
+
+
+  <div class="container mt-3">
+    <h2>Contextual Link Colors</h2>
+    <a href="#" class="text-muted">Muted link.</a>
+    <a href="#" class="text-primary">Primary link.</a>
+    <a href="#" class="text-success">Success link.</a>
+    <a href="#" class="text-info">Info link.</a>
+    <a href="#" class="text-warning">Warning link.</a>
+    <a href="#" class="text-danger">Danger link.</a>
+    <a href="#" class="text-secondary">Secondary link.</a>
+    <a href="#" class="text-black-50">Dark grey link.</a>
+    <a href="#" class="text-body">Body/black link.</a>
+    <a href="#" class="text-white-50">Light grey link.</a>
+  </div>
+
+  
+
+
+  <div class="container mt-3">
+    <h2>Contextual Backgrounds</h2>
+    <p>Use the contextual background classes to provide "meaning through colors".</p>
+    <div class="bg-primary p-3"></div>
+    <div class="bg-success p-3"></div>
+    <div class="bg-info p-3"></div>
+    <div class="bg-warning p-3"></div>
+    <div class="bg-danger p-3"></div>
+    <div class="bg-secondary p-3"></div>
+    <div class="bg-dark p-3"></div>
+    <div class="bg-light p-3"></div>
+  </div>
+
+
+
+  <div class="container mt-3">
+    <h2>Background Color with Contrasting Text Color</h2>
+    <p class="text-bg-primary">This text is important.</p>
+    <p class="text-bg-success">This text indicates success.</p>
+    <p class="text-bg-info">This text represents some information.</p>
+    <p class="text-bg-warning">This text represents a warning.</p>
+    <p class="text-bg-danger">This text represents danger.</p>
+    <p class="text-bg-secondary">Secondary background color.</p>
+    <p class="text-bg-dark text-white-50">Dark grey background color.</p>
+    <p class="text-bg-light text-black-50">Light grey background color.</p>
+  </div>
+  
+
+
+
+
+  <div class="container mt-3">
+    <h2>Dark Mode Table</h2>
+    <table class="table" data-bs-theme="dark">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+
+  <div class="container mt-3">                 
+    <ul class="pagination pagination-lg d-flex justify-content-center">
+      <li class="page-item"><a class="page-link " href="tooltip.html">Previous</a></li>
+      <li class="page-item active"><a class="page-link" href="#" >14</a></li>
+      <li class="page-item"><a class="page-link " href="flexbox.html">Next</a></li>
+    </ul>
+  </div>
+
+  
+</body>
+</html>

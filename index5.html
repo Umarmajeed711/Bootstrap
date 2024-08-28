@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <div class="container mt-3">
+        <h2>Pagination</h2>
+        <p>To create a basic pagination, add the .pagination class to an ul element. Then add the .page-item to each li element and a .page-link class to each link inside li:</p>                  
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link bg-warning" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item "><a class="page-link " href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link bg-warning" href="#">Next</a></li>
+        </ul>
+      </div>
+    
+      <div class="container mt-3">
+        <h2>Pagination - Active State</h2>
+        <p>Add class .active to let the user know which page he/she is on:</p>
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="container mt-3">
+        <h2>Pagination - Sizing</h2>
+        <p>Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks.</p>
+      
+        <p>Large:</p>
+        <ul class="pagination pagination-lg">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      
+        <p>Default:</p>
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      
+        <p>Small:</p>
+        <ul class="pagination pagination-sm">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </div>
+
+
+
+
+      <div class="container mt-3">
+        <h2>Pagination</h2>
+        <p>Use utilitiy classes to change the alignment of the pagination:</p>                  
+        <ul class="pagination">
+          <li class="page-item disabled"><a class="page-link" href="javascript:void(0);">Previous(disabled)</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+        </ul>
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+        </ul>
+        <ul class="pagination justify-content-end">
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+        </ul>
+      </div>
+            
+
+      <div class="container mt-3">
+        <h2>Breadcrumbs</h2>
+        <p>The .breadcrumb class indicates the current page's location within a navigational hierarchy:</p>                  
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Photos</a></li>
+          <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+          <li class="breadcrumb-item"><a href="#">Italy</a></li>
+          <li class="breadcrumb-item active">Rome</li>
+        </ul>
+      </div>
+      
+
+
+
+      <div class="container mt-3">
+        <h2>Basic List Group</h2>
+        <ul class="list-group">
+          <li class="list-group-item active">Active State</li>
+          <li class="list-group-item ">First item</li>
+          <li class="list-group-item">Second item</li>
+          <li class="list-group-item">Third item</li>
+        </ul>
+      </div>
+
+
+      <div class="container mt-3">
+        <h2>List Group With Linked Items</h2>
+        <div class="list-group ">
+          <a href="#" class="list-group-item list-group-item-action ">First item</a>
+          <a href="#" class="list-group-item list-group-item-action disabled">Disabled item</a>
+          <a href="#" class="list-group-item list-group-item-action">Third item</a>
+        </div>
+      </div>
+      
+
+      <div class="container mt-3">
+        <h2>Flush / Remove Borders</h2>
+        <p>Use the .list-group-flush class to remove some borders and rounded corners:</p>
+      </div>
+        
+      <div class="container mt-3">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">First item</li>
+          <li class="list-group-item">Second item</li>
+          <li class="list-group-item">Third item</li>
+          <li class="list-group-item">Fourth item</li>
+        </ul>
+      </div>
+
+      
+
+      <div class="container mt-3">
+        <h2>Numbered List Group</h2>
+        <p>Use the .list-group-numbered class to create list items with numbers in front of them:</p>
+      </div>
+        
+      <div class="container mt-3">
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item">First item</li>
+          <li class="list-group-item">Second item</li>
+          <li class="list-group-item">Third item</li>
+        </ol>
+      </div>
+
+
+      <div class="container mt-3">
+        <h2>Horizontal List Groups</h2>
+        <p>The .list-group-horizontal class displays the list items horizontally instead of vertically:</p>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">First item</li>
+          <li class="list-group-item">Second item</li>
+          <li class="list-group-item">Third item</li>
+          <li class="list-group-item">Fourth item</li>
+        </ul>
+      </div>
+      
+
+      <div class="container mt-3">
+        <h2>List Group With Contextual Classes</h2>
+        <ul class="list-group ">
+          <li class="list-group-item list-group-item-success">Success item</li>
+          <li class="list-group-item list-group-item-secondary">Secondary item</li>
+          <li class="list-group-item list-group-item-info">Info item</li>
+          <li class="list-group-item list-group-item-warning">Warning item</li>
+          <li class="list-group-item list-group-item-danger">Danger item</li>
+          
+        </ul>
+      </div>
+
+
+      <div class="container mt-3">
+        <h2>Linked Items With Contextual Classes</h2>
+        <p>Move the mouse over the linked items to see the hover effect:</p>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">Action item</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success item</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Secondary item</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-info">Info item</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Warning item</a>
+          
+        </div>
+      </div>
+      
+
+      <div class="container mt-3">
+        <h2>List Group With Badges</h2>
+        <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-success d-flex justify-content-between align-items-center">
+            Inbox
+            <span class="badge bg-primary rounded-pill">12</span>
+          </li>
+          <li class="list-group-item  list-group-item-info d-flex justify-content-between align-items-center">
+            Ads
+            <span class="badge bg-dark rounded-pill">50</span>
+          </li>
+          <li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-center">
+            Junk
+            <span class="badge bg-primary rounded-pill">99</span>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="container mt-3">
+        <h2>Basic Card</h2>
+        <div class="card">
+          <div class="card-body">Basic card</div>
+        </div>
+      </div>
+      
+
+      <div class="container mt-3">
+        <h2>Card Header and Footer</h2>
+        <div class="card">
+          <div class="card-header">Header</div>
+          <div class="card-body">Content</div> 
+          <div class="card-footer">Footer</div>
+        </div>
+      </div>
+
+      
+
+      <div class="container mt-3">
+        <h2>Cards with Contextual Classes</h2>
+        <div class="card">
+          <div class="card-body">Basic card</div>
+        </div>
+        <br>
+        <div class="card bg-primary text-white">
+          <div class="card-body">Primary card</div>
+        </div>
+        <br>
+        <div class="card bg-success text-white">
+          <div class="card-body">Success card</div>
+        </div>
+        <br>
+        <div class="card bg-info text-white">
+          <div class="card-body">Info card</div>
+        </div>
+        <br>
+        <div class="card bg-warning text-white">
+          <div class="card-body">Warning card</div>
+        </div>
+      </div>
+      
+
+      <div class="container mt-3">
+        <h2>Card titles, text, and links</h2>
+        <p>Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for a p element if it is the last child (or the only one) in card-body. The .card-link class adds a blue color to any link, and a hover effect.</p>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some example text. Some example text.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="container mt-3">
+        <h2>Card Image</h2>
+        <p>Image at the top (card-img-top):</p>
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="1.jpg" alt="Card image" style="width:100%">
+          <div class="card-body ">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+        <br>
+        
+        <p>Image at the bottom (card-img-bottom):</p>
+        <div class="card" style="width:400px">
+          <div class="card-body">
+            <h4 class="card-title">Jane Doe</h4>
+            <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+          <img class="card-img-bottom" src="1.jpg" alt="Card image" style="width:100%">
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container mt-3">
+        <h2>Card Image Overlay</h2>
+        <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
+        <div class="card img-fluid" style="width:500px">
+          <img class="card-img-top" src="1.jpg" alt="Card image" style="width:100%">
+          <div class="card-img-overlay">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text card-text-light">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="container mt-3">                 
+        <ul class="pagination pagination-lg d-flex justify-content-center">
+          <li class="page-item"><a class="page-link " href="index4.html">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#" >5</a></li>
+          <li class="page-item"><a class="page-link " href="index6.html">Next</a></li>
+        </ul>
+      </div>
+    
+      
+</body>
+</html>
